@@ -9,8 +9,8 @@
   "buildCommand": "npm run build",
   "routes": [
     {
-    "src": "/api/users/(.*)",
-    "dest": "/api/users",
+    "src": "/(.*)",
+    "dest": "/dist/main.js",
       "methods": [
         "GET",
         "POST",
